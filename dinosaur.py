@@ -6,4 +6,5 @@ class Dinosaur:
     self.health = 250
   
   def attack(self, robot):
+    
     pass
