@@ -38,3 +38,19 @@ class Battlefield:
 
   def display_winner(self):
     pass
+
+
+
+   #! While Loop: if robot's health != 0, hit robot with energy blast decreasing robot's health 35 pts with each strike
+    # while robot.health > 0 :
+    #   print(f'{self.name} hit {robot.name} with energy blast from his mouth which has an attack power of {self.attack_power} points.')
+
+      #todo if damage from dino's attack power is less than current robot health, subtract dino attack power from current robot health
+
+      #! While Loop: if dino's health !=0, hit dino with plasma cannon decreasing dino's health 40pts with each strike
+
+    #todo if damage from robot's attack power is less than current dino's health, subtract robot's attack power from current dino's health
+
+        #! While Loop: if dino's health !=0, hit dino with plasma cannon decreasing dino's health 40pts with each strike
+
+    #todo if damage from robot's attack power is less than current dino's health, subtract robot's attack power from current dino's health

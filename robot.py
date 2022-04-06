@@ -4,17 +4,11 @@ class Robot:
   def __init__(self, name):
     # As a developer, I want a Robot to have a name, health, and active_weapon.
     self.name = name
-    self.health = 200
-    self.active_weapon = Weapon('plasma cannon', 40)
+    self.health = 100
+    self.active_weapon = Weapon('plasma cannon', 20)
   
   def attack(self, dinosaur):
     # As a developer, I want a Robot to have the ability to attack a Dinosaur on a Battlefield. This attack method should lower the Dinosaur’s health by the attack_power of the Robot’s active_weapon.
-
-    #! While Loop: if dino's health !=0, hit dino with plasma cannon decreasing dino's health 40pts with each strike
-
-    #todo if damage from robot's attack power is less than current dino's health, subtract robot's attack power from current dino's health
-
+    dinosaur.health -= self.active_weapon.attack_power
     #^ Need to display robot's attack power & dino's current health
-
-
-    pass
+    print(f"{self.name} attacks {dinosaur.name} with his {self.active_weapon.name} for {self.active_weapon.attack_power} damage. {dinosaur.name}'s current health is {dinosaur.health}")
