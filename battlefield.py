@@ -4,7 +4,7 @@ from dinosaur import Dinosaur
 
 class Battlefield:
   def __init__(self):
-    self.robot = Robot
+    self.robot = Robot()
     self.dinosaur = Dinosaur
   
   def run_game(self):
