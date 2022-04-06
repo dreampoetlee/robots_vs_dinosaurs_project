@@ -9,4 +9,4 @@ class Dinosaur:
     # As a developer, I want a Dinosaur to have the ability to attack a Robot on a Battlefield. This attack method should lower a Robot’s health by the value of the Dinosaur’s attack_power.
     robot.health -= self.attack_power
     #^ Need to display dino's attack power & robot's current health maybe in a variable?
-    print(f"{self.name} attacks {robot.name} with energy blast from his mouth for {self.attack_power} damage. {robot.name}'s current health is {robot.health}")
+    print(f"{self.name} attacks {robot.name} with energy blast from his mouth for {self.attack_power} damage points. {robot.name}'s current health is {robot.health}")

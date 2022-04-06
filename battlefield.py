@@ -22,7 +22,7 @@ class Battlefield:
     self.display_winner()
 
   def display_welcome(self):
-    print(f'Welcome to the ultimate smack down between {Robot.name} & {Dinosaur.name}')
+    print(f'Welcome to the ultimate smack down between {self.robot.name} & {self.dinosaur.name}')
     
   def battle_phase(self):
     # if self.robot.health >= 0 :
